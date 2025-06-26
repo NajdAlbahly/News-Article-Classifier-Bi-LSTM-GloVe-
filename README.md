@@ -57,22 +57,6 @@ The dataset is balanced across categories, making it suitable for multi-class cl
 
 ---
 
-## Project Configuration
-
-| Parameter                 | Value               |
-| ------------------------- | ------------------- |
-| Max Vocabulary Size       | 20,000              |
-| Max Sequence Length       | 200                 |
-| GloVe Embedding Dimension | 100                 |
-| GloVe File                | `glove.6B.100d.txt` |
-| LSTM Units                | 128                 |
-| Dropout Rate              | 0.3                 |
-| Batch Size                | 64                  |
-| Epochs                    | 15                  |
-| Number of Classes         | 4                   |
-
----
-
 ## Why BiLSTM and GloVe?
 
 - **BiLSTM (Bidirectional LSTM):** Captures context from both left and right of a word, which is critical in understanding news headlines where word order affects meaning.
@@ -107,6 +91,22 @@ Embedding (GloVe pretrained, non-trainable)
 
 **Embedding Matrix Shape:** (20000, 100)
 **Total Parameters:** 2M (non-trainable)
+
+---
+
+## Project Configuration
+
+| Parameter                 | Value               |
+| ------------------------- | ------------------- |
+| Max Vocabulary Size       | 20,000              |
+| Max Sequence Length       | 200                 |
+| GloVe Embedding Dimension | 100                 |
+| GloVe File                | `glove.6B.100d.txt` |
+| LSTM Units                | 128                 |
+| Dropout Rate              | 0.3                 |
+| Batch Size                | 64                  |
+| Epochs                    | 15                  |
+| Number of Classes         | 4                   |
 
 ---
 
