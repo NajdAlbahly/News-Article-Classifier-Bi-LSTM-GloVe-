@@ -12,10 +12,33 @@ Automatically categorize news content into one of the following:
 - Business
 - Sci/Tech
 
-## Repository Contents
-- `news_classifier_app.py`: Inference script with a simple Gradio web interface.
-- `requirements.txt`: Python dependencies used in this project.
-- `ag_news_train.csv`, `ag_news_test.csv`: Processed training and test datasets from AG News.
+---
+
+Project Steps :
+
+1. Load the Data
+→ Load the AG News dataset with training and test splits.
+
+2. Clean the Text
+→ Remove punctuation, lowercase the text, remove stopwords.
+
+3. Tokenize and Pad
+→ Convert words to numbers and pad sequences to the same length.
+
+4. Load Word Embeddings
+→ Use GloVe vectors to give meaning to each word.
+
+5. Build the Model
+→ BiLSTM model with embedding layer, dropout, and output layer for 4 classes.
+
+6. Train the Model
+→ Train on the cleaned data and validate performance.
+
+7. Evaluate Performance
+→ Check test accuracy and classification metrics.
+
+8. Build Gradio App
+→ Create a user-friendly web app for predicting news categories.
 
 ---
 
