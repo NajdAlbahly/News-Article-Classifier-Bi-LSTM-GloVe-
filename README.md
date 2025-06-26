@@ -1,4 +1,4 @@
-# 📰 News Article Classifier with BiLSTM & GloVe
+# 📰 News Article Classifier with Bi-LSTM & GloVe
 
 This project showcases an NLP-powered text classification system trained to categorize English news headlines into one of four predefined categories: **World, Sports, Business, and Sci/Tech**. The model uses a **Bidirectional LSTM** architecture with **pre-trained GloVe embeddings** for rich semantic representation.
 
