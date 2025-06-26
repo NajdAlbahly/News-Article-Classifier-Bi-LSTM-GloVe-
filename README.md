@@ -19,7 +19,7 @@ Project Steps :
 1. Load the Data
 → Load the AG News dataset with training and test splits.
 
-2. Clean the Text
+2. Preprocessing 
 → Remove punctuation, lowercase the text, remove stopwords.
 
 3. Tokenize and Pad
