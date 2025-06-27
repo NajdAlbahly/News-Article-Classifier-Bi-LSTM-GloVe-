@@ -14,7 +14,14 @@ Automatically categorize news content into one of the following:
 
 ---
 
-Project Steps :
+## Why BiLSTM and GloVe?
+
+- **BiLSTM (Bidirectional LSTM):** Captures context from both left and right of a word, which is critical in understanding news headlines where word order affects meaning.
+- **GloVe Embeddings:** Pre-trained word vectors that provide meaningful dense representations of words, improving model generalization.
+
+---
+  
+## Project Steps 
 
 1. Load the Data
 → Load the AG News dataset with training and test splits.
@@ -54,13 +61,6 @@ Project Steps :
   - `3`: Sci/Tech
 
 The dataset is balanced across categories, making it suitable for multi-class classification tasks.
-
----
-
-## Why BiLSTM and GloVe?
-
-- **BiLSTM (Bidirectional LSTM):** Captures context from both left and right of a word, which is critical in understanding news headlines where word order affects meaning.
-- **GloVe Embeddings:** Pre-trained word vectors that provide meaningful dense representations of words, improving model generalization.
 
 ---
 
