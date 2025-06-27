@@ -14,7 +14,7 @@ Automatically categorize news content into one of the following:
 
 ---
 
-## Why BiLSTM and GloVe?
+## Why Bi-LSTM and GloVe?
 
 - **BiLSTM (Bidirectional LSTM):** Captures context from both left and right of a word, which is critical in understanding news headlines where word order affects meaning.
 - **GloVe Embeddings:** Pre-trained word vectors that provide meaningful dense representations of words, improving model generalization.
