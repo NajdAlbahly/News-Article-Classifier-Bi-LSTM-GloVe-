@@ -4,7 +4,7 @@ This project showcases an NLP-powered text classification system trained to cate
 
 ## Project Overview
 
-The goal is to build a deep learning model capable of understanding short news texts and classifying them accurately. We utilized the **AG News dataset**, a well-known benchmark in NLP tasks involving news classification.
+The goal is to build a deep learning model capable of understanding short news texts and classifying them accurately. I utilized the **AG News dataset**, a well-known benchmark in NLP tasks involving news classification.
 
 Automatically categorize news content into one of the following:
 - World
